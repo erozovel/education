@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px regular;
+    line-height: 150%;
+    font-family: "Ubuntu";
+}
+
+.header {
+    width: 1200px;
+    display: flex; /* Activează modul Flexbox */
+    justify-content: space-between; /* Spațiere între div-uri (poți folosi `center`, `space-around` sau `flex-start`) */
+    align-items: center; /* Aliniază vertical conținutul div-urilor */
+    
+}
+
+.logo {
+    width: 120px;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex; /* Activează modul Flexbox */
+    justify-content: space-between; /* Spațiere între div-uri (poți folosi `center`, `space-around` sau `flex-start`) */
+    align-items: center; /* Aliniază vertical conținutul div-urilor */
+    gap: 28px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+
+.menu a {
+    color: black;
+}
+
+a {
+    text-decoration: none; /*scoate linia de subliniere la text*/
+}
+
+.menu a:hover {
+    text-decoration: underline 2px #F379FF;/*adaugă linie roză de subliniere a elementului din meniu*/
+}
+
+.btn-secundar {
+    font-weight: bold;
+    color: #0D92F8;
+    padding: 12px 32px;
+    border: 2px solid;
+    border-radius: 12px;
+    border-color: #0D92F8;
+    background-color: white;
+}
+
+.btn-secundar a {
+    color: #0D92F8;
+}
+
+.btn-secundar:hover {
+    border-color: #F379FF;
+    color: #F379FF;
+}
+
+.text-block {
+    width: 500px;
+    margin-right: 124px;
+    float: left; /*deplasarea pe partea dreaptă a elementului*/
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 130%;
+    margin-bottom: 28px;
+}
+
+.p1 {
+    margin-bottom: 40px;
+}
+
+.btn-principal {
+    font-weight: bold;
+    color: white;
+    padding: 12px 32px;
+    background-color: #0D92F8;
+    border-radius: 12px;
+    border: none;
+}
+
+.btn-principal:hover {
+    background-color: #F379FF;
+}
+
+.float {
+    float: left;
+    margin-top: 100px;
+    margin-left: -35px;
+}
+
+.hero {
+    display: flex; /* Pentru aliniere flexibilă */
+    flex-direction: right; /* Divurile interioare sunt aranjate pe verticală */
+    margin: 0 auto;
+    align-items: center; /* Centrează blocul pe orizontală */
+    width: 1198px; /* Dimensiune pentru demonstrație */
+   
+}
+
+.h2 {
+    width: 444px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 130%;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 130%;
+    margin-bottom: 28px;
+}
+
+.block-cards {
+    display: flex;
+    flex-direction: right;
+    width: 1002px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.card {
+    width: 276px;
+    margin-right: 88px;
+}
+
+.gap {
+    margin-bottom: 28px;
+}
+
+.section3 {
+        display: flex; /* Pentru aliniere flexibilă */
+        flex-direction: right; /* Divurile interioare sunt aranjate pe verticală */
+        margin: 0 auto;
+        align-items: center; /* Centrează blocul pe orizontală */
+        width: 1059px; /* Dimensiune pentru demonstrație */
+       
+        
+}
+
+.p2 {
+    margin-bottom: 40px;
+}
+
+
+.card-img {
+    width: 379px;
+    margin-right: 32px;
+}
+
+h4 {
+    font-size: 24px; 
+    line-height: 130%;   
+}
+
+.stars {
+    display: flex;
+    flex-direction: right;
+    align-items: left;
+}
+
+.stars img {
+    margin-right: 165px;
+}
+
+.section4 {
+    margin-top: 128px;
+}
+
+.block-teacher {
+    display: flex;
+    flex-direction: right;
+    width: 1198px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.contacts {
+   background-color: rgba(158, 203, 234, 1); 
+   height: 464px;
+   width: 1200px;
+   border-radius: 32px;
+
+    display: flex;
+    flex-direction: right;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    margin-bottom: 128px;
+
+    
+}
+
+.info-inputs {
+    width: 379px;
+    height: 156px;
+}
+
+.p3 {
+    margin-bottom: 40px;
+}
+
+input {
+    width: 428px;
+    padding: 12px 12px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(158, 203, 234, 1);
+}
+
+.btn-principal-input {
+    font-weight: bold;
+    color: white;
+    padding: 12px 32px;
+    background-color: #000000;
+    border-radius: 12px;
+    border: none;
+    width: 428px;
+    text-align: center;
+}
+
+.btn-principal-input:hover {
+    background-color: rgba(13, 146, 248, 1);
+}
+
+.footer {
+    display: block;
+    background-color: rgba(0, 0, 0, 1);
+    box-sizing:border-box;
+    height: 238px;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+.header-footer {
+    padding-top: 28px;
+}
+
+hr {
+    width: 1200px;
+    margin-top: 66px;
+    margin-bottom: 24px;
+    border: 1px solid #323131;
+}
